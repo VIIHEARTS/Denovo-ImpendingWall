@@ -26,7 +26,7 @@ public class PlayerCtrls : MonoBehaviour
         
         Vector2 playerPos = GameObject.Find("Player").transform.position;
 
-        if (playerPos.x > 0f)
+        if (playerPos.x != 0f || playerPos.y != 0f) 
         {
             hasMoved = true;
         }

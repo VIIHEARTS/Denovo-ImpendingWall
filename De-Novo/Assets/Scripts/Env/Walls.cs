@@ -16,7 +16,7 @@ public class Walls : MonoBehaviour
 
         if (playerControls == null)
         {
-            Debug.LogError("Player controls component not ffound in the scene");
+            Debug.LogError("Player controls component not found in the scene");
         }
     }
 
